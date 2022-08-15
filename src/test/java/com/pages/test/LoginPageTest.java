@@ -18,6 +18,7 @@ public class LoginPageTest {
 		LoginPage lp = new LoginPage();
 		lp.enterEmail(ExcelFile.getCellData(1, 0).toString());
 		lp.enterPswd(ExcelFile.getCellData(1, 1).toString());
+		lp.clickOnButton();
 		
 	}
 }
