@@ -2,16 +2,33 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-15T04:06:28 GMT-07:00" name="Suite" finished-at="2022-08-15T04:06:38 GMT-07:00" duration-ms="10204">
+  <suite started-at="2022-08-15T06:51:35 GMT-07:00" name="Suite" finished-at="2022-08-15T06:52:18 GMT-07:00" duration-ms="43642">
     <groups>
     </groups>
-    <test started-at="2022-08-15T04:06:28 GMT-07:00" name="Test" finished-at="2022-08-15T04:06:38 GMT-07:00" duration-ms="10204">
-      <class name="com.pages.test.LoginPageTest">
-        <test-method signature="TC_001()[pri:0, instance:com.pages.test.LoginPageTest@703580bf]" started-at="2022-08-15T04:06:28 GMT-07:00" name="TC_001" finished-at="2022-08-15T04:06:38 GMT-07:00" duration-ms="10134" status="PASS">
+    <test started-at="2022-08-15T06:51:35 GMT-07:00" name="SignupTest" finished-at="2022-08-15T06:52:18 GMT-07:00" duration-ms="43642">
+      <class name="com.pages.test.SignupPageTest">
+        <test-method signature="TC_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.pages.test.SignupPageTest@5bd03f44]" started-at="2022-08-15T06:51:35 GMT-07:00" name="TC_002" finished-at="2022-08-15T06:52:18 GMT-07:00" duration-ms="43569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lobo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[john@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_001 -->
-      </class> <!-- com.pages.test.LoginPageTest -->
-    </test> <!-- Test -->
+        </test-method> <!-- TC_002 -->
+      </class> <!-- com.pages.test.SignupPageTest -->
+    </test> <!-- SignupTest -->
   </suite> <!-- Suite -->
 </testng-results>

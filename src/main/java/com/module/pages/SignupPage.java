@@ -13,17 +13,17 @@ public class SignupPage{
 
  By email = By.xpath("//input[@required = '']");
  
- public void enterFirstName(String text)
+ public void enterFirstName(String firstName)
  {
-	 Constant.driver.findElement(firstname).sendKeys(text);
+	 Constant.driver.findElement(firstname).sendKeys(firstName);
  }
- public void entrLastName(String text)
+ public void entrLastName(String lastName)
  {
-	 Constant.driver.findElement(lastname).sendKeys(text);;
+	 Constant.driver.findElement(lastname).sendKeys(lastName);;
  }
- public void enterEmail(String text)
+ public void enterEmail(String emailid)
  {
-	 Constant.driver.findElement(email).sendKeys(text);
+	 Constant.driver.findElement(email).sendKeys(emailid);
  }
 
 }

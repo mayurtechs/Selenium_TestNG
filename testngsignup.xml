@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="SignupTest">
+  <parameter name="firstName" value="john"></parameter>
+  <parameter name="lastName" value="Lobo"></parameter>
+  <parameter name="emailid" value="john@gmail.com"></parameter>
+  <classes>
+  <class name = "com.pages.test.SignupPageTest"/>
+  </classes>
+  </test> <!-- SignupTest -->
+</suite> <!-- Suite -->
