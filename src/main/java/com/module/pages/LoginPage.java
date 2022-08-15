@@ -25,6 +25,6 @@ public class LoginPage {
 	}
 	public void clickOnButton()
 	{
-		
+		Constant.driver.findElement(loginbtn).click();
 	}
 }
